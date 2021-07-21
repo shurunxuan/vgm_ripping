@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 int read16(unsigned char * buf) {
     return (buf[0]<<8)|buf[1];
